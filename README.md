@@ -15,7 +15,7 @@
 
 ## 🖥️ O aplikacji
 
-**PowerLab** to profesjonalna aplikacja desktopowa do **sterowania i monitorowania zasilaczy laboratoryjnych** przez interfejs RS232/Modbus RTU. Zaprojektowana z myślą o elektronikach, studentach i laboratoriach — z ciemnym motywem i wykresami w czasie rzeczywistym.
+**PowerLab** to profesjonalna aplikacja desktopowa do **sterowania i monitorowania zasilaczy laboratoryjnych** przez interfejs RS232/Modbus RTU.
 
 ```
 ┌─────────────────────┬──────────────────────────────────┐
