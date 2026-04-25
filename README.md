@@ -15,7 +15,7 @@
 
 ## 🖥️ O aplikacji
 
-**PowerLab** to profesjonalna aplikacja desktopowa do **sterowania i monitorowania zasilaczy laboratoryjnych** przez interfejs RS485/Modbus RTU. Zaprojektowana z myślą o elektronikach, studentach i laboratoriach — z ciemnym motywem i wykresami w czasie rzeczywistym.
+**PowerLab** to profesjonalna aplikacja desktopowa do **sterowania i monitorowania zasilaczy laboratoryjnych** przez interfejs RS232/Modbus RTU. Zaprojektowana z myślą o elektronikach, studentach i laboratoriach — z ciemnym motywem i wykresami w czasie rzeczywistym.
 
 ```
 ┌─────────────────────┬──────────────────────────────────┐
@@ -73,19 +73,19 @@
 ## 🔌 Podłączenie sprzętu
 
 ```
-[Zasilacz RS485] ──── [Konwerter USB→RS485] ──── [PC / Laptop]
+[Zasilacz RS232] ──── [Konwerter USB→RS232] ──── [PC / Laptop]
                                                         │
                                                    PowerLab.exe
 ```
 
 ### Wymagania
-- Zasilacz z interfejsem **RS485 / Modbus RTU**
-- Konwerter **USB → RS485** (CH340, FT232, CP2102)
+- Zasilacz z interfejsem **RS232 / Modbus RTU**
+- Konwerter **USB → RS232** (CH340, FT232, CP2102)
 - System: **Windows 10/11** (64-bit)
 
 ---
 
-## 📡 Protokół Modbus RTU
+## 📡 Protokół Modbus RTU over RS232
 
 **Baud:** 9600 | **Parity:** None | **Stop bits:** 1 | **Address:** 0x01
 
